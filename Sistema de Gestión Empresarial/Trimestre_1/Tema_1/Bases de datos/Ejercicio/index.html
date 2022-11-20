@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <head>
+        <title>Registro</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="registros.php" method="post">
+            <p>Nombre: <input type="text" name="nombre" size="15"></p>
+            <p>Apellidos: <input type="text" name="apellidos" size="15"></p>
+            <p>Correo Electrónico: <input type="email" name="email" size="15"></p>
+
+            <input type="submit" name="enviar" value="Registrarme">
+        </form>
+
+        <form action="mostrarUsuarios.php" method="post">
+            <input type="submit" name="enviar" value="Mostrar Usuarios">
+        </form>
+    </body>
+</html>

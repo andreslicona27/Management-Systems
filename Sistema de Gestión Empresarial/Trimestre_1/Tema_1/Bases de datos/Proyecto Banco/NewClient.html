@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        <title>Nuevo cliente</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="NewClient.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="login-box">
+            <h2>Datos Personales</h2>
+            <form action="RegisterClient.php" method="post">
+                <div class="type-one">
+                    <div class="user-box">
+                        <input type="text" name="nombre" size="15" required>
+                        <label>Nombre</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="primerApellido" size="15" required>
+                        <label>Primer Apellido</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="segundoApellido" size="15" required>
+                        <label>Segundo Apellido</label>
+                    </div>
+                </div>
+
+                <div class="type-one">
+                    <div class="user-box">
+                        <input type="text" name="dni" required>
+                        <label>DNI</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="telefono" required>
+                        <label>Teléfono</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="email" name="email" required>
+                        <label>Correo</label>
+                    </div>
+                </div>
+
+                <div class="user-box">
+                    <input type="text" name="direccion" required>
+                    <label>Dirección</label>
+                </div>
+
+                <h2>Datos Bancarios</h2>
+                <div class="user-box">
+                    <input type="text" name="numCuenta" size="5" required>
+                    <label>Número de Cuenta</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" name="dineroCuenta" required>
+                    <label>Cantidad de Dinero</label>
+                </div>
+                <div class="button-form">
+                    <input type="submit" id="submit" value="Agregar Cliente">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
