@@ -4,7 +4,7 @@ if (
     ($_POST['apellidos'] != '') && (isset($_POST['telefono'])) && ($_POST['telefono'] != '') &&
     (isset($_POST['departamento'])) && ($_POST['departamento'] != '')
 ) {
-    require_once "modelo/modelo.php";
+    require_once "Modelo/Modelo.php";
     $nuevo = new Empleado();
     $asd = $nuevo->setEmpleado(
         $_POST['nombre'], $_POST['apellidos'], $_POST['telefono'],
@@ -24,7 +24,7 @@ if (
         <h1>Ejemplo MVC con PHP</h1>
         <hr />
         <p>Creamos una base de datos de los empleados de una empresa y operamos con ella
-            mediante el paradigna MVC</p>
+            mediante el paradigma MVC</p>
     </header>
     <div>
         <form action="#" method="post">
