@@ -1,6 +1,6 @@
 <?php 
     require_once "Vehiculo.php";
-    class Cuatro_ruedas extends Vehiculo {
+    abstract class Cuatro_ruedas extends Vehiculo {
         private $numero_puertas;
 
         // BUILDERS

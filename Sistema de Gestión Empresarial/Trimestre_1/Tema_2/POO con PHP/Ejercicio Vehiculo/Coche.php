@@ -1,6 +1,6 @@
 <?php 
     require_once "Cuatro_ruedas.php";
-    class Coche extends Cuatro_ruedas {
+    abstract class Coche extends Cuatro_ruedas{
         private $numero_cadenas_nieve;
 
         // BUILDER
@@ -30,13 +30,16 @@
         }
 
         public function quitar_cadenas_nieve($num){
-            parent::anadir_persona($peso_persona);
+            parent::anadir_persona($num);
 
             if ($this->getPeso() <= 1500 && $this->numero_cadenas_nieve <= 2) {
                 print "Necesitas 4 cadenas de nieve </br>";
             }
 
         }
-    }
+    	/**
+	 */
+
+}
 
  ?>

@@ -1,6 +1,6 @@
 <?php 
     require_once "Vehiculo.php";
-    class Dos_ruedas extends Vehiculo {
+    abstract class Dos_ruedas extends Vehiculo {
         private $cilindrada;
 
         // SETTERS / GETTERS

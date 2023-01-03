@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background: #EB455F;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FCFFE7;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+/* BUTTON CSS */
+a {
+    text-decoration: none;
+}
+
+ul {
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 0;
+}
+
+ul div {
+    width: 40px;
+    height: 5px;
+    background-color: #9581F4;
+    margin: auto;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+ul li span {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    background:  #2B3467;
+    justify-content: center;
+    align-items: center;
+    color: #FCFFE7;
+    font-size: 20px !important;
+    transition: 1.5s ease-out;
+}
+
+ul li:hover span {
+    transition: .3s;
+    background: #BAD7E9 !important;
+} 
+
+
+/* CAROUSEL CSS */
+.container {
+    position: relative;
+    width: 320px;
+    margin: 200px auto 0 auto;
+    perspective: 1000px;
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+.image {
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+span {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.image:nth-child(1) {
+    background-image: url("Img_Car/carro.jpg");
+    transform: rotateY( 0deg) translateZ(430px);
+}
+
+.image:nth-child(2) {
+    background-image: url("Img_Car/juguetes_madera.jpg");
+    transform: rotateY( 40deg) translateZ(430px);
+}
+
+.image:nth-child(3) {
+    background-image: url("Img_Car/tren.jpg");
+    transform: rotateY( 80deg) translateZ(430px);
+}
+
+.image:nth-child(4) {
+    background-image: url("Img_Car/peluche.jpg");
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.image:nth-child(5) {
+    background-image: url("Img_Car/casa.jpg");
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+.image:nth-child(6) {
+    background-image: url("Img_Car/tractores.jpg");
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.image:nth-child(7) {
+    background-image: url("Img_Car/soldados.jpg");
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.image:nth-child(8) {
+    background-image: url("Img_Car/juego.jpg");
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.image:nth-child(9) {
+    background-image: url("Img_Car/rompecabezas.jpg");
+    transform: rotateY(320deg) translateZ(430px);
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}

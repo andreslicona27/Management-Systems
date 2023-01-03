@@ -1,6 +1,6 @@
 <?php 
     require_once "Cuatro_ruedas.php";
-    class Camion extends Cuatro_ruedas {
+    abstract class Camion extends Cuatro_ruedas {
         private $longitud;
 
         // SETTERS / GETTERS
