@@ -56,7 +56,7 @@ ul li span {
 
 ul li:hover span {
     transition: .3s;
-    background: #BAD7E9 !important;
+    background: #EB455F !important;
 } 
 
 
@@ -73,7 +73,7 @@ ul li:hover span {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
-    animation: rotate360 60s infinite forwards linear;
+    animation: rotate360 30s infinite forwards linear;
 }
 
 .image {
@@ -146,3 +146,4 @@ span {
         transform: rotateY(-360deg);
     }
 }
+

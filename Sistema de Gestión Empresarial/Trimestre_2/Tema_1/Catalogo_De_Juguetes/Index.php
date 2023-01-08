@@ -30,8 +30,8 @@ if (
     <h1>Mundo de Juguetes</h1>
     <ul>
         <li>
-            <a href="#">
-                <span class="toys">Toys</span>
+            <a href="Muestra_Juguetes.php">
+                <span class="toys">CAT</span>
             </a>
         </li>
     </ul>
@@ -50,6 +50,8 @@ if (
             <div class="image"><span>juguetes</span></div>
         </div>
     </div>
+
 </body>
+
 
 </html>
