@@ -20,7 +20,7 @@ a {
 ul {
     position: absolute;
     top: 10%;
-    left: 95%;
+    left: 90%;
     transform: translate(-50%, -50%);
     display: flex;
     padding: 0;
@@ -51,13 +51,18 @@ ul li span {
     align-items: center;
     color: #FCFFE7;
     font-size: 20px !important;
-    transition: 1.5s ease-out;
+    transition: 0.5s ease-out;
 }
 
 ul li:hover span {
     transition: .3s;
     background: #EB455F !important;
 } 
+
+.icons {
+    height: auto;
+    width: 30px;
+}
 
 
 /* CAROUSEL CSS */

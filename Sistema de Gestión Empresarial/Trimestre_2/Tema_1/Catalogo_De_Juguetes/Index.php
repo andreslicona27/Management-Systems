@@ -30,8 +30,17 @@ if (
     <h1>Mundo de Juguetes</h1>
     <ul>
         <li>
+            <a href="Insertar_Juguete.html">
+                <span class="toys">
+                    <img src="Iconos/plus.png" class="icons"></img>
+                </span>
+            </a>
+        </li>
+        <li>
             <a href="Muestra_Juguetes.php">
-                <span class="toys">CAT</span>
+                <span class="toys">
+                    <img src="Iconos/catalogue.png" class="icons"></img>
+                </span>
             </a>
         </li>
     </ul>
