@@ -6,7 +6,7 @@ class Juguete
     public function __construct()
     {
         $this->juguete = array();
-        $this->db = new PDO('mysql:host=localhost;dbname=ejemplo_mvc', "root", "");
+        $this->db = new PDO('mysql:host=localhost;dbname=catalogojuguetes', "root", "");
     }
     public function getJuguete()
     {
@@ -17,11 +17,10 @@ class Juguete
         $this->db = null;
         return $this->juguete;
     }
-    public function setJuguete($id, $nombre, $precio, $imagen, $descripcion, $stock)
+    public function setJuguete($nombre, $precio, $imagen, $descripcion, $stock)
     {
 
-        $sql = "INSERT INTO juguetes(id, nombre, precio, imagen, descripcion, stock) VALUES ('" .
-            $id . "', '" . $nombre . "', '" . $precio . "', '" . $imagen . "' , '" . $descripcion . "' , '" . $stock ."')";
+        $sql = "INSERT INTO juguetes(nombre, precio, imagen, descripcion, stock) VALUES ('". $nombre . "', '" . $precio . "', '" . $imagen . "' , '" . $descripcion . "' , '" . $stock ."')";
         $result = $this->db->query($sql);
         if ($result) {
             return true;

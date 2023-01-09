@@ -99,47 +99,47 @@ span {
 }
 
 .image:nth-child(1) {
-    background-image: url("Img_Car/carro.jpg");
+    background-image: url("../Img_Car/carro.jpg");
     transform: rotateY( 0deg) translateZ(430px);
 }
 
 .image:nth-child(2) {
-    background-image: url("Img_Car/juguetes_madera.jpg");
+    background-image: url("../Img_Car/juguetes_madera.jpg");
     transform: rotateY( 40deg) translateZ(430px);
 }
 
 .image:nth-child(3) {
-    background-image: url("Img_Car/tren.jpg");
+    background-image: url("../Img_Car/tren.jpg");
     transform: rotateY( 80deg) translateZ(430px);
 }
 
 .image:nth-child(4) {
-    background-image: url("Img_Car/peluche.jpg");
+    background-image: url("../Img_Car/peluche.jpg");
     transform: rotateY(120deg) translateZ(430px);
 }
 
 .image:nth-child(5) {
-    background-image: url("Img_Car/casa.jpg");
+    background-image: url("../Img_Car/casa.jpg");
     transform: rotateY(160deg) translateZ(430px);
 }
 
 .image:nth-child(6) {
-    background-image: url("Img_Car/tractores.jpg");
+    background-image: url("../Img_Car/tractores.jpg");
     transform: rotateY(200deg) translateZ(430px);
 }
 
 .image:nth-child(7) {
-    background-image: url("Img_Car/soldados.jpg");
+    background-image: url("../Img_Car/soldados.jpg");
     transform: rotateY(240deg) translateZ(430px);
 }
 
 .image:nth-child(8) {
-    background-image: url("Img_Car/juego.jpg");
+    background-image: url("../Img_Car/juego.jpg");
     transform: rotateY(280deg) translateZ(430px);
 }
 
 .image:nth-child(9) {
-    background-image: url("Img_Car/rompecabezas.jpg");
+    background-image: url("../Img_Car/rompecabezas.jpg");
     transform: rotateY(320deg) translateZ(430px);
 }
 
